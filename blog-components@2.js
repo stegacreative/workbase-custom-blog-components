@@ -25,6 +25,10 @@ $('p:contains(\'{"state":\')').each(function (){
 		const blueClone = $('.is-blue').clone();
     return $(this).replaceWith(blueClone[0]);
   }
+  if(state === "newsletter"){
+		const newsletterClone = $('.is-newsletter').clone();
+    return $(this).replaceWith(newsletterClone[0]);
+  }
 })
 
 const shareClone = $('.share-buttons').clone()
