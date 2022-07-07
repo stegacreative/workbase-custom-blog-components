@@ -142,5 +142,3 @@ slider.addEventListener('mousemove', (e) => {
   slider.scrollLeft = scrollLeft - walk;
   console.log(walk);
 });
-
-Script made by https://www.stegacreative.com
